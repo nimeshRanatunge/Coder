@@ -1,8 +1,0 @@
-Use swagger open api documentation for api testing using below link
-http://localhost:2335/swagger-ui/index.html
-(Change server ip, port as your server)
-
-Most apis requires Query parameters such as filenames, directory names, etc
-For more details, checkout seafile server documentation, the link is given below.
-https://download.seafile.com/published/web-api/v2.1
-In this spring boot project, All apis are implemented based on https://download.seafile.com/published/web-api/v2.1
