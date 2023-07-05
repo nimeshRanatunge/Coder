@@ -1,0 +1,28 @@
+package org.example;
+
+public class Main {
+    public static void main(String[] args) {
+        int rows = 12;
+        int length = 12;
+        for(int i=1; i<=rows; i++){
+            for (int j=1; j<=length; j++){
+                    if (i==1 || (i==rows/2 && j>length/3) || i==rows || j==length/3 || j==length)
+                     System.out.print(" *");
+                    else System.out.print("  ");
+            }
+            System.out.println();
+        }
+    }
+}
+    * * * * * * * * * * * *
+         *               *
+         *               *
+         *               *
+         *               *
+         * * * * * * * * *
+         *               *
+         *               *
+         *               *
+         *               *
+         *               *
+    * * * * * * * * * * * *

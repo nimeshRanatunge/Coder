@@ -1,0 +1,29 @@
+package org.example;
+
+public class Main {
+    public static void main(String[] args) {
+        int rows = 12;
+        int length = 10;
+        for(int i=1; i<=rows; i++){
+           for(int j=1; j<=length; j++){
+               if(i==rows || i==1 || j==length/2)
+                System.out.print(" *");
+               else System.out.print("  ");
+           }
+            System.out.println();
+        }
+    }
+}
+"C:\Program Files\Java\jdk-17\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.3\lib\idea_rt.jar=61079:C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.3\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\nimes\OneDrive\Desktop\Coder\1-star-pattern\star-pattern\target\classes org.example.Main
+        * * * * * * * * * *
+                *
+                *
+                *
+                *
+                *
+                *
+                *
+                *
+                *
+                *
+        * * * * * * * * * *

@@ -1,0 +1,41 @@
+package org.example;
+
+public class Main {
+    public static void main(String[] args) {
+        int rows = 6;
+        for(int i=1; i<=rows; i++){
+            for(int j=rows; j>=i; j--){
+                System.out.print(" ");
+            }
+            for(int k=1; k<=i; k++){
+                if(k==1 || k==i) System.out.print(" *");
+                else System.out.print("  ");
+            }
+            System.out.println();
+        }
+        for(int i=1; i<=rows;i++){
+            if (i==1) continue;
+            for(int j=1; j<=i; j++){
+                System.out.print(" ");
+            }
+            for(int k=rows; k>=i; k--){
+                if(k==rows || k==i)
+                    System.out.print(" *");
+                else
+                    System.out.print("  ");
+            }
+            System.out.println();
+        }
+    }
+}
+              *
+             * *
+            *   *
+           *     *
+          *       *
+         *         *
+          *       *
+           *     *
+            *   *
+             * *
+              *
